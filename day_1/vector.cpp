@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <utility>
 using namespace std;
 int main(){
     vector <int> v;
@@ -17,4 +18,20 @@ int main(){
     // it created first and then copied or move into the vector
     // emplace_back()=constructs the object directly inside the vectors memory, so it can avoid copy/move
     // into the vector
+
+    //PAIR in  vector 
+    //the syntax is [ vector<pair<int,int>> p ]
+    // first vector then < the we indicate we are using pair then what data type
+    // we are storing inside the pair , in this we are using int,int and the variable name
+
+    vector <pair<int,char>> p;
+
+    p.push_back({1,'a'});
+    p.emplace_back(3,'b');
+    cout<<p[0].first<<endl;
+    cout<<p[0].second<<endl;
+    cout<<p[1].first<<endl;
+    cout<<p[1].second<<endl;
+
+    // remeber to acess anything in vector use the array concept of indexing
 }
