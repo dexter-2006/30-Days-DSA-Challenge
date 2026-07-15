@@ -28,6 +28,7 @@ int main(){
 
     p.push_back({1,'a'});
     p.emplace_back(3,'b');
+    // here it is difference of bracket between push_back and emplace_back
     cout<<p[0].first<<endl;
     cout<<p[0].second<<endl;
     cout<<p[1].first<<endl;
