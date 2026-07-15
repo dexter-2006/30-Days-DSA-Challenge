@@ -7,4 +7,7 @@ int main(){
     cout<<v[1]<<endl;
     vector <char> p(3);
     // this is empty vector but value is not defined
+    //copy constructor
+    vector <int> v2(v);
+    //the value of vector v will be copied
 }
