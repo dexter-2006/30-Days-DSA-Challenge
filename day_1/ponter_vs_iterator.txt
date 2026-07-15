@@ -1,0 +1,15 @@
+the difference between pointer and iterator
+
+pointer = is points to memory location
+
+ex int a= 1;
+   int *p=&a;
+   cout << *p;
+   now we have created pointer *p 
+   which stores the address of address of a
+
+   now we dont use pointer in stl because it wont works with all stl elemnts like sets
+
+   iterator
+   now iterator points the elements inside the stl container
+   
