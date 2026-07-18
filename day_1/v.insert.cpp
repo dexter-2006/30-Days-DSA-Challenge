@@ -12,6 +12,8 @@ int main(){
 
    v.insert(v.begin(),23);
           // position , value
+
+          
     for(auto it=v.begin();it!=v.end();it++){
         cout <<*it << endl;
     }
@@ -20,6 +22,7 @@ int main(){
     v.insert(v.begin()+2,69);
              // always starts from v.begin() that is starting position then from 0 
              // then add the position where you want to insert
+
     cout<<"We have insert 69 at position 2"<<endl;
     for(auto it=v.begin();it!=v.end();it++){
         cout<<*it<<endl;
@@ -37,4 +40,6 @@ int main(){
 
     // just remmber these things always
     // v.begin()
+
+    cout<<"the size of vector ="<<v.size()<<endl;
 }
